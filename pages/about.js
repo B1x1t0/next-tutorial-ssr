@@ -1,13 +1,11 @@
 import Link from 'next/link'
+import Layout from '../components/Layout'
 
 const About = () => (
     <div>
-      <p>About Page</p>
-            <div>
-            <Link href="/">
-            <button>Home Page</button>
-            </Link>
-        </div>
+        <Layout>
+        <p>About Page</p>
+        </Layout>
     </div>
   )
   
